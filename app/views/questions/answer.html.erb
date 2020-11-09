@@ -1,0 +1,18 @@
+
+<h1 class='py-3'>Stupid Coaching</h1>
+
+<div class = 'bg-dark my-2 py-0 pl-2 pr-0 border rounded col-6'>
+    <div class = 'bg-light p-2'>
+    <p class='text-secondary small '> <%= @text %></p>
+    <p class='font-italic'> -You</p>
+    </div>
+</div>
+
+<div class = 'bg-dark my-2 py-0 pl-2 pr-0 border rounded col-6'>
+    <div class = 'p-2 bg-warning'>
+    <p class=''> <%= @answer %></p>
+    <p class='font-italic'> -Your Coach</p>
+    </div>
+</div>
+  <%= link_to "Ask another Question", ask_path, class: 'back-btn' %>
+

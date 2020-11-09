@@ -1,0 +1,16 @@
+// Place all the styles related to the questions controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+
+.back-btn {
+    background-color: rgb(0, 131, 131);
+    padding: 8px;
+    color: white;
+    border-radius: 4px;
+    width: 25%;
+    &:hover {
+      background-color: rgba(0, 131, 131, 0.5);
+      text-decoration: none;
+      color: white;
+    }
+}
